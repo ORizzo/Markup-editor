@@ -1,0 +1,86 @@
+html {
+	background-color: #eeebdd;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.editorContainer {
+	padding: 2rem;
+	margin: 4rem 6rem;
+}
+
+.editors {
+	text-align: left;
+	border: none;
+	padding: 1.5rem;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin: 0rem 1.5rem;
+	font-family: "Open Sans";
+	color: black;
+	font-size: 100%;
+	background-image: linear-gradient(to bottom, #fdfbfb 0%, #f6f7fb 100%);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+select {
+	padding: 0.5em;
+	border: none;
+	margin: 0.35em 1em;
+	border-radius: 2px;
+	font-family: "Open Sans";
+	font-size: 13px;
+	height: 2.25em;
+}
+
+button {
+	background: none;
+}
+
+.styleButton#bold {
+	font-weight: bold;
+}
+
+.styleButton#italic {
+	font-style: italic;
+	font-family: serif;
+}
+
+.styleButton#underline {
+	text-decoration: underline;
+	text-decoration: black;
+}
+
+.toolbar {
+	margin: 0em 1.5em;
+	padding: 0.5em;
+	background: gray;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.styleButton,
+.RichEditor-styleButton {
+	padding: 0.75rem;
+	border: none;
+	margin: 0em 0.20em;
+	width: 3.20rem;
+	font-family: "Open Sans";
+	font-size: 22px;
+	height: 2.5em;
+	border-radius: 5px;
+}
+:hover.RichEditor-styleButton, :hover.styleButton{
+	color:white
+}
+.firstbutton{
+	margin: 0em 0.20em 0em 1.5em;
+}
+.dropdown{
+	box-shadow: none;
+}
+.RichEditor-activeButton {
+	color: white;
+}
