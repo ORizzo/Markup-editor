@@ -37,7 +37,10 @@ select {
 button {
 	background: none;
 }
-
+.dropdown{
+	box-shadow: none;
+	background: none;
+}
 .styleButton#bold {
 	font-weight: bold;
 }
@@ -77,9 +80,6 @@ button {
 }
 .firstbutton{
 	margin: 0em 0.20em 0em 1.5em;
-}
-.dropdown{
-	box-shadow: none;
 }
 .RichEditor-activeButton {
 	color: white;
